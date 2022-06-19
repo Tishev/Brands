@@ -1,0 +1,27 @@
+.header {
+    background-color: #222222;
+    height: 75px;
+    min-width: 1600px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-items {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icons-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 111px;
+}
+.header-icons-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 168px;
+}

@@ -1,0 +1,227 @@
+.order {
+    min-width: 1600px;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.order-content {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.hidden {
+   opacity: 0;
+}
+.order-things-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.order-things-item {
+    position: relative;
+    margin-bottom: 40px;
+    width: 652px;
+    height: 306px;
+    display: flex;
+    
+    box-shadow: 1em 0.5em 1em rgba(74, 74, 77, 0.2);
+}
+.order-things-item:last-child {
+    margin-bottom: 0;
+}
+.order-item-text {
+    padding-left: 31px;
+    padding-top: 22px;
+}
+.order-item-text h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 262px;
+    color: #222222;
+    padding-bottom: 42px;
+}
+
+.order-item-text p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+
+    color: #575757;
+
+}
+.item-close {
+    position: absolute;
+    top: 28px;
+    right: 22px;
+    width: 18px;
+    height: 18px;
+    justify-self: flex-end;
+}
+.item-close:hover {
+    opacity: 0.9;
+}
+.item-price {
+    color: #F16D7F;
+}
+.order-things-btn {
+    margin-top: 72.5px;
+    width: 652px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-clear-cart {
+    border: 1px solid #A4A4A4;
+    width: 234px;
+    height: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.btn-clear-cart:hover, .btn-continue-shoping:hover {
+    background-color: #a39e9e;
+    transition: 400ms;
+}
+.btn-continue-shoping {
+    border: 1px solid #A4A4A4;
+    width: 225px;
+    height: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.order-info {
+    width: 360px;
+}
+.order-info-form {
+    height: 272px;
+    margin-bottom: 57px;
+}
+.order-info p {
+    margin-bottom: 21px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.info-country {
+    padding-left: 17px;
+    margin-bottom: 21px;
+    border: 1px solid #A4A4A4;
+    width: 360px;
+    height: 45px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+
+}
+.info-district {
+    padding-left: 17px;
+    margin-bottom: 21px;
+    border: 1px solid #A4A4A4;
+    width: 360px;
+    height: 45px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+}
+.info-postcode {
+    padding-left: 17px;
+    margin-bottom: 24px;
+    border: 1px solid #A4A4A4;
+    width: 360px;
+    height: 45px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+}
+.info-get-a-quote-btn {
+    border: 1px solid #A4A4A4;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    width: 100px;
+    height: 34px;
+    color: #4A4A4A;
+}
+.info-checkout {
+    background-color: #F5F3F3;
+    height: 214px;
+    width: 360px;
+    display: flex;
+    padding: 39px 34px 42px 44px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info-checkout p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    margin-bottom: 12px;
+
+    color: #4A4A4A;
+}
+.info-checkout h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 21px;
+
+    color: #222222;
+
+}
+.geand-total-checkout {
+    color: #F16D7F;
+}
+.info-checkout-line {
+    width: 275px;
+    /* height: 1px; */
+    border: 1px solid #E2E2E2;
+    margin-bottom: 17px;
+}
+.checkout-btn {
+    width: 273px;
+    height: 50px;
+    background-color: #F16D7F;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}

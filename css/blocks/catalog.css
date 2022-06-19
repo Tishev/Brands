@@ -1,0 +1,114 @@
+.catalog {
+    padding-top: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-content {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.catalog-content-header {
+    width: 1140px;
+    padding-bottom: 46px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.catalog-content-items {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.catalog-item {
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+}   
+.catalog-item:hover {
+    opacity: 0.92;
+}
+
+.catalog-content-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    padding-bottom: 6px;
+}
+.catalog-content-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.catalog-header {
+    padding-top: 25px;
+    padding-left: 18px;
+    padding-bottom: 13px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.catalog-text {
+    padding-left: 18px;
+    padding-bottom: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+.catalog-price {
+    padding-left: 18px;
+    padding-bottom: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+.catalog-btn-content {
+    display: flex;
+    width: 1140px;
+    justify-content: center;
+    margin-bottom: 95.5px;
+}
+.catalog-btn {
+    margin-top: 18.5px;
+    border: 1px solid  #F26376;
+    width: 211px;
+    height: 47px;
+}
+
+.catalog-btn:hover {
+    opacity: 0.7;
+    transition: 0.2 ease;
+}
+
+.btn-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #F26376;
+}

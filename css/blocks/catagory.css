@@ -1,0 +1,155 @@
+.catagory {
+    display: flex;
+    justify-content: center;
+    height: 535px;
+    
+}
+
+.catagory-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 30px;
+
+}
+.content-for-women {
+    position: relative;
+    box-sizing: border-box;
+    width: 360px;
+    height: 260px;
+}
+.content-for-women:hover {
+    opacity: 0.9;
+    transition: 0.5s ease;
+}
+.content-for-men {
+    position: relative;
+    box-sizing: border-box;
+    width: 360px;
+    height: 260px;
+}
+.content-for-men:hover {
+    opacity: 0.9;
+    transition: 0.5s ease;
+}
+.content-for-kids {
+    position: relative;
+    box-sizing: border-box;
+    width: 360px;
+    height: 260px;
+}
+.content-for-kids:hover {
+    opacity: 0.9;
+    transition: 0.5s ease;
+}
+.content-accesories {
+    position: relative;
+    box-sizing: border-box;
+    width: 1140px;
+    height: 180px;
+    
+}
+.content-accesories:hover {
+    opacity: 0.9;
+    transition: 0.5s ease;
+}
+
+.catagory-text-women {
+    position: absolute;
+    top: 105px;
+    left: 103px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.catagory-text-men {
+    position: absolute;
+    top: 105px;
+    left: 125px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.catagory-text-kids {
+    position: absolute;
+    top: 105px;
+    left: 123px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.catagory-text-accesories {
+    position: absolute;
+    top: 65px;
+    left: 490px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.text-women {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F16D7F;
+}
+
+.text-men {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F16D7F;
+}
+.text-kids {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F16D7F;
+}
+
+.text-accesories {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F16D7F;
+}
+
+
+

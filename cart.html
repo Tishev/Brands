@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart the Brand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- Blocks -->
+    <link rel="stylesheet" href="./css/blocks/header.css">
+    <link rel="stylesheet" href="./css/blocks/subscribe.css">
+    <link rel="stylesheet" href="./css/blocks/footer.css">
+    <link rel="stylesheet" href="./css/blocks/shoping-cart.css">
+    <link rel="stylesheet" href="./css/blocks/order.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-items">
+                <div class="header-icons-left">
+                    <a href="#"><img src="./img/header/brand.svg" alt="brand"></a>
+                    <a href="#"><img src="./img/header/search.svg" alt="search"></a>
+                </div>
+                <div class="header-icons-right">
+                    <a href="#"><img src="./img/header/humburger.svg" alt="humburger"></a>
+                    <a href="#"><img src="./img/header/personInfo.svg" alt="personInfo"></a>
+                    <a href="#"><img src="./img/header/cart.svg" alt="cart"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="shoping-cart">
+            <div class="container">
+                <div class="shoping-cart-content">
+                    <p>SHOPPING CART</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="container">
+                <div class="order-content">
+                    <div class="order-things">
+                        <div class="order-things-items">
+                            <div class="order-things-item " id="item-cart">
+                                <img src="./img/cart/cart1.png" alt="cart1">
+                                <div class="order-item-text">
+                                    <h1>MANGO  PEOPLE <br> T-SHIRT</h1>
+                                    <p>Price: <span class="item-price">$300</span></p>
+                                    <p>Color: Red</p>
+                                    <p>Size: Xl	</p>
+                                    <p>Quantity:	</p>
+                                </div>
+                                <img class="item-close" id="btn-close" src="./img/cart/close.svg" alt="close">
+                            </div>
+                            <div class="order-things-item" id="item-cart2">
+                                <img src="./img/cart/cart2.png" alt="cart2">
+                                <div class="order-item-text">
+                                    <h1>MANGO  PEOPLE <br> T-SHIRT</h1>
+                                    <p>Price: <span class="item-price">$300</span></p>
+                                    <p>Color: Red</p>
+                                    <p>Size: Xl	</p>
+                                    <p>Quantity:	</p>
+                                </div>
+                                <img class="item-close" id="btn-close2" src="./img/cart/close.svg" alt="close">
+                            </div>
+                        </div>
+                        <div class="order-things-btn">
+                            <button class="btn-clear-cart">CLEAR SHOPPING CART</button>
+                            <button class="btn-continue-shoping">CONTINUE SHOPPING</button>
+                        </div>
+                    </div>
+
+                    <div class="order-info">
+                        <div class="order-info-form">
+                            <p>SHIPPING ADRESS</p>
+                            <input type="text" class="info-country" placeholder="Bangladesh">
+                            <input type="text" class="info-district" placeholder="State">
+                            <input type="text" class="info-postcode" placeholder="Postcode / Zip">
+                            <button class="info-get-a-quote-btn">GET A QUOTE</button>
+                        </div>
+                        <div class="info-checkout">
+                            <p>SUB TOTAL         $900</p>
+                            <h3>GRAND TOTAL      <span class="geand-total-checkout">$900</span></h3>
+                            <span class="info-checkout-line"></span>
+                            <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe-content">
+                    <div class="subscribe-comment">
+                        <img src="./img/subscribe/avatar.svg" alt="avatar">
+                        <p class="comment-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <div class="form-header">
+                            <h2 class="form-send-title">SUBSCRIBE</h2>
+                            <p class="form-send-text">FOR OUR NEWLETTER AND PROMOTION</p>
+                        </div>
+                        <div class="form-send">
+                            <input type="text" class="form-send-input" placeholder="Enter Your Email">
+                            <button class="form-send-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-copyright">
+                    <p class="copyright-text">© 2021  Brand  All Rights Reserved.</p>
+                </div>
+
+                <div class="footer-socials">
+                    <a href="#"><img src="./img/footer/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="./img/footer/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="./img/footer/pinterest.svg" alt="pinterest"></a>
+                    <a href="#"><img src="./img/footer/twitter.svg" alt="twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>

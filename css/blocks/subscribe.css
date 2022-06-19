@@ -1,0 +1,105 @@
+.subscribe {
+    background: url('../blocks/background.png') center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subscribe-content {
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-comment {
+    width: 360px;
+    height: 225px;
+    padding-top: 97px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.comment-text {
+    padding-top: 25px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #222224;
+
+}
+.subscribe-form {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-send-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    /* or 40px */
+
+    text-align: center;
+
+    color: #222224;
+}
+.form-send-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 40px */
+
+    text-align: center;
+
+    color: #222224;
+}
+.form-send {
+    padding-top: 32px;
+}
+
+.form-send-input {
+    width: 256px;
+    height: 49px;
+    background-color: #E1E1E1;
+    color: #222224;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 22px;
+    align-items: center;
+    opacity: 0.7;
+    
+}
+.form-send-btn {
+    background-color: #F16D7F;
+    width: 100px;
+    height: 49px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}

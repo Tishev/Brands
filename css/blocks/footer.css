@@ -1,0 +1,30 @@
+.footer {
+    min-width: 1600px;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222224;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copyright {
+    display: flex;
+    align-items: center;
+}
+.copyright-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FBFBFB;
+}
+.footer-socials img:hover {
+    opacity: 0.7;
+    
+}
